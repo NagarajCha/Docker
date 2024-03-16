@@ -2,7 +2,7 @@ FROM ubuntu
 
 WORKDIR /app
 
-COPY requirements.txt /app
+COPY python_web_app.txt /app
 COPY devops /app
 
 RUN apt-get update && \
